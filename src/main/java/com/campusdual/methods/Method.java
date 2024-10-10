@@ -33,13 +33,20 @@ public class Method {
         System.out.println("NOT false:" + (!false));
     }
 
+    public static String myCustomMessage(String customName){
+        return "Hi " + customName + "! This is your custom message";
+    }
+
+
     public static void main(String[] args) {
         logicOperators();
-        int arithResult = arithmeticOperators()
-        System.out.println("Artithmetic result: " + arithResult);
-
+        int arithResult = arithmeticOperators();
+        System.out.println("Arithmetic result: " + arithResult);
+        String name = "Tomás";
+        String message = myCustomMessage(name);
+        System.out.println(message);
+        System.out.println(myCustomMessage("Tomás Mañas"));
 
     }
 }
 
-WIP: Work_in progress

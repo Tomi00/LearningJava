@@ -18,4 +18,3 @@ public class WhileLoop {
 }
 
 
-WIP: work in progress

@@ -11,7 +11,7 @@ public class Cat extends Animal{
         System.out.println("Meow!");
     }
 
-    public final void climbing(){
+    public void climbing(){
         System.out.println("Get out of there!");
     }
 }

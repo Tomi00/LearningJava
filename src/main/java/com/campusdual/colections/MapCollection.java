@@ -29,7 +29,7 @@ public class MapCollection {
 
 
         System.out.println("Contains specific key: ");
-        instrumentsTypes.containsKey(instrumentsTypes.containsKey("Piano"));
+        System.out.println(instrumentsTypes.containsKey("Piano"));
 
     }
 }
